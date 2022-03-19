@@ -1,0 +1,28 @@
+version: '3'
+services:
+  web:
+    container_name: web
+    image: web
+    build:
+      dockerfile:
+        web.dockerfile
+    ports:
+      - "8080:8080"
+    restart: always
+    environment:
+      - mail.hostname=host@mail.com
+      - mail.port=9000
+      - mail.from=mailer@mail.com
+  ocpp:
+    container_name: ocpp
+    image: ocpp
+    build:
+      dockerfile:
+        ocpp.dockerfile
+    ports:
+      - "8081:8081"
+    restart: always
+    environment:
+      - mail.hostname=host@mail.com
+      - mail.port=9000
+      - mail.from=mailer@mail.com 

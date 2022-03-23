@@ -11,7 +11,7 @@ services:
       - "8080:8080"
     restart: always
     environment:
-      - STEVE_BASE_URL_REXHARGE=http://web.rexharge.net:8080/api
+      - STEVE_BASE_URL_REXHARGE=http://web.rexharge.net:8081/rexharge/rexharge/api
       - REXHARGE_OCPP_MODE=integrated
       - SPRING_DATASOURCE_PASSWORD=postgres
       - SPRING_DATASOURCE_USERNAME=postgres
@@ -33,4 +33,4 @@ services:
       - SPRING_DATASOURCE_SCHEMA_STEVE=stevedb
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=postgres
-      - REXHARGE_BASE_URL_OCPP=http://web.rexharge.net:8081/api/ocpp
+      - REXHARGE_BASE_URL_OCPP=http://web.rexharge.net:8080/api/ocpp

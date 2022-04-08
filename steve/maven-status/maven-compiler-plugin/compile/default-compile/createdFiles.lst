@@ -99,6 +99,7 @@ de/rwth/idsg/steve/web/dto/ocpp/MultipleChargePointSelect.class
 de/rwth/idsg/steve/ocpp/ws/pipeline/Deserializer.class
 de/rwth/idsg/steve/repository/dto/TaskOverview$TaskOverviewBuilder.class
 jooq/steve/db/tables/records/TransactionStopRecord.class
+de/rwth/idsg/steve/http/dto/NotificationStatus.class
 jooq/steve/db/tables/records/TransactionRecord.class
 de/rwth/idsg/steve/ocpp/CommunicationTask$StringOcppCallback.class
 jooq/steve/db/tables/ConnectorMeterValue.class
@@ -246,6 +247,7 @@ de/rwth/idsg/steve/web/controller/service/GithubReleaseCheckService.class
 de/rwth/idsg/steve/repository/dto/ChargePoint$Details.class
 jooq/steve/db/tables/ChargingSchedulePeriod.class
 de/rwth/idsg/steve/ocpp/ws/FutureResponseContextStore.class
+de/rwth/idsg/steve/http/dto/MeterValue.class
 de/rwth/idsg/steve/ocpp/converter/Server12to15Impl.class
 de/rwth/idsg/steve/ocpp/Ocpp15AndAboveTask.class
 de/rwth/idsg/steve/ApplicationStarter.class
@@ -286,6 +288,7 @@ de/rwth/idsg/steve/repository/impl/ReservationRepositoryImpl$1.class
 de/rwth/idsg/steve/web/controller/ChargePointsController$1.class
 de/rwth/idsg/steve/ocpp/ws/pipeline/Deserializer$1.class
 de/rwth/idsg/steve/ocpp/ws/ocpp12/Ocpp12JacksonModule.class
+de/rwth/idsg/steve/http/dto/TransactionStart.class
 de/rwth/idsg/steve/repository/dto/User.class
 de/rwth/idsg/steve/web/dto/ChargePointBatchInsertForm.class
 de/rwth/idsg/steve/web/LocalDateTimeEditor.class
@@ -364,6 +367,7 @@ de/rwth/idsg/steve/web/controller/UsersController.class
 de/rwth/idsg/steve/repository/dto/ConnectorStatus.class
 de/rwth/idsg/steve/repository/dto/InsertReservationParams$InsertReservationParamsBuilder.class
 de/rwth/idsg/steve/ocpp/ws/pipeline/OutgoingCallPipeline.class
+de/rwth/idsg/steve/http/dto/Connector.class
 de/rwth/idsg/steve/SteveConfiguration$Jetty.class
 de/rwth/idsg/steve/ocpp/ws/custom/MeterValue15Deserializer.class
 de/rwth/idsg/steve/ocpp/ws/data/OcppJsonCall.class

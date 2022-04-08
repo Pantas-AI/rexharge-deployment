@@ -19,6 +19,7 @@
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/dto/ocpp/ConfigurationKeyReadWriteEnum.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/dto/ocpp/SetChargingProfileParams.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/dto/ChargePointBatchInsertForm.java
+/Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/http/dto/TransactionStart.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/ws/custom/MeterValue15Mixin.java
 /Users/yinchuangsum/IdeaProjects/steve/target/generated-sources/jooq/steve/db/tables/Address.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/dto/ocpp/GetDiagnosticsParams.java
@@ -89,10 +90,12 @@
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/ws/ChargePointServiceInvoker.java
 /Users/yinchuangsum/IdeaProjects/steve/target/generated-sources/jooq/steve/db/tables/Connector.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/ws/custom/MeterValue15Deserializer.java
+/Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/http/dto/Connector.java
 /Users/yinchuangsum/IdeaProjects/steve/target/generated-sources/jooq/steve/db/tables/TransactionStop.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/dto/ocpp/ClearChargingProfileFilterType.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/ws/ocpp12/Ocpp12WebSocketEndpoint.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/repository/impl/SettingsRepositoryImpl.java
+/Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/http/dto/MeterValue.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/repository/dto/Reservation.java
 /Users/yinchuangsum/IdeaProjects/steve/target/generated-sources/jooq/steve/db/tables/ConnectorChargingProfile.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/ChargePointService12_Invoker.java
@@ -283,6 +286,7 @@
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/dto/ReleaseReport.java
 /Users/yinchuangsum/IdeaProjects/steve/target/generated-sources/jooq/steve/db/tables/Reservation.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/web/controller/service/UnidentifiedIncomingObjectService.java
+/Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/http/dto/NotificationStatus.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/OcppCallback.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/ws/data/FutureResponseContext.java
 /Users/yinchuangsum/IdeaProjects/steve/src/main/java/de/rwth/idsg/steve/ocpp/Ocpp16AndAboveTask.java

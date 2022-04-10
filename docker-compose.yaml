@@ -12,7 +12,7 @@ services:
     restart: always
     environment:
       - STEVE_BASE_URL_REXHARGE=http://web.rexharge.net:8081/rexharge/rexharge/api
-      - REXHARGE_OCPP_MODE=dummy
+      - REXHARGE_OCPP_MODE=integrated
       - SPRING_DATASOURCE_PASSWORD=postgres
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_URL=jdbc:postgresql://35.198.216.9:5432/rexharge
